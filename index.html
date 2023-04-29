@@ -8,36 +8,61 @@
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Lato:wght@400;700&display=swap" rel="stylesheet">
 </head>
-<body>
+<body> 
+        <!--Logo de la empresa y enlaces al menu-->
     <header>
-        <img src="img/IMG_industria.png" width="150" alt="Logo de la empresa">
-        <a href="#inicio">Inicio</a>
-        <a href="#contacto">Contacto</a>
-    </header>
+            
+              <img src="img/IMG_industria.png" class="logo" width="150px" alt="Logo de la empresa">
+            
+            <nav>
+                <ul id="menu">
+                    <li class="menu-item">
+                        <a href="#inicio">Inicio</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+    </header> 
     <main>
-        <img src="img/IMG_20201231_235241467.jpg" alt="Foto Asdrúbal Blanco"><br>
-        <h3>Hola! mi nombre es Asdrúbal Blanco</h3>
-        <Section class="#inicio"> 
-            <p class="justificado"> Ingeniero de producción agropecuaria, especialista en maquinaria agrícola y transporte de carga pesada.
+        <!--presentacion, seccion inicio-->
+        <section id="inicio"> 
+            <figure class="presentacion-img">
+                <img src="https://placekitten.com/400/400" alt="Imagen">
+            </figure>
+            <article class="presentacion">
+                <h1>Hola! mi nombre es Asdrúbal Blanco</h1>
+                <p> Ingeniero de producción agropecuaria, especialista en maquinaria agrícola y transporte de carga pesada.
                 Con mi experiencia puedo desarrollar y ejecutar planes de mantenimiento en todo tipo de maquinaria agrícola y transporte 
                 de carga pesada, además tengo la capacidad de dirigir operaciones de labranza de suelos agrícolas, operaciones de 
                 cosecha de distintos rubros agrícolas y operaciones de logística y transporte.
                 Mi aporte laboral permite tener fiabilidad en el desarrollo de cuakquier actividad agrícola que emplee maquinaria y
                 otros implementos, favoreciendo los tiempos de ejecución, lo que a su vez se traduce en un ahorro de costos de 
-                producción.</p>
-        </Section><br><br>
-        
-        <section class="#contacto">
-            <h3>Hablemos!</h3>
-            <p class="justificado">Les presento mi empresa de asesoría y desarrollo de proyectos agropecuarios, maquinaria agrícola y logística con transporte
-                de carga pesada, diseñamos su plan de ejecución de actividades utilizando tecnología de punta con
-            aplicaciones web para un mejor control de su empresa. </p><br>
-            <a href="https://github.com/asdru-b" target="_blank"><img src="img/IMG_github.png" width="40" alt="Enlace Github"></a>
-            <a href="http://www.linkedin.com/in/asdrubal-blanco-4535104b" target="_blank"><img src="img/IMG_linkedin.png" width="40" alt="Enlace Linkedin"></a>
-            <a href="mailto:blancoasdrubal81@gmail.com" target="_blank"><img src="img/IMG_mail.png" width="40" alt="Enlace mail"></a>
+                producción.
+                </p>
+                <a href="Resúmen curriculum-vitae Asdrubal Blanco.pdf" target="_blank">
+                    <button type="button">Descargar mi CV</button>
+                </a>
+            </article>         
         </section>
+        <!--presentacion, seccion contacto-->
+        <section id="contacto">
+            <div class="contacto">
+                <h2>Hablemos!</h2><br>
+                <p>Les presento mi empresa de asesoría y desarrollo de proyectos agropecuarios, maquinaria agrícola y logística con transporte
+                    de carga pesada, diseñamos su plan de ejecución de actividades utilizando tecnología de punta con
+                aplicaciones web para un mejor control de su empresa. </p>
+            </div>
+            <!--Iconos para enlaces de la seccion contacto-->
+            <div id="iconos-contacto">
+                <a href="https://github.com/asdru-b" target="_blank"><img src="img/IMG_github.png" width="40px" alt="Enlace Github"></a>
+                <a href="http://www.linkedin.com/in/asdrubal-blanco-4535104b" target="_blank"><img src="img/IMG_linkedin.png" width="40px" alt="Enlace Linkedin"></a>
+                <a href="mailto:blancoasdrubal81@gmail.com" target="_blank"> <img src="img/IMG_mail.png" width="40px" alt="Enlace mail blancoasdrubal81@gmail.com"></a>
+            </div>
+        </section>   
     </main>
-    <footer>2023</footer>
+    <footer><p>Curso 2023</p></footer>
 
 </body>
 </html>

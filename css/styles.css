@@ -3,11 +3,6 @@
 /* Fonts */
 /* Importar aquí la font */
 
-body {
-    font-family: 'Lato', sans-serif;
-  }
-  
-
 /* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades
 *  cuyos valores asigna por defecto el navegador.
 */
@@ -57,3 +52,108 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+
+/*estilos aplicados*/
+/*google font, tamano general, color de fondo e interlineado*/
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    background-color: #fbfbfb;
+    line-height: 1.2;
+    color: #0f0f0f;
+  }
+
+    /*estilos de titulos, parrafos y header*/
+  h1 {
+      font-size: 36px;
+      text-align: center;
+  }
+  
+  h2 {
+      font-size: 28px;
+  }
+  p {
+    margin: 16px 0;
+  }
+  img {
+    max-width: 100%;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+    height: 90px;
+    width: 100%;
+    background-color: #fbfbfb;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 0 3px 10px -5px #5f5f5f
+  }
+  ul#menu {
+    display: flex;
+    font-size: 20px;
+  }
+  li.menu-item a {
+    padding: 16px;
+  }
+
+  /*estilos de las secciones*/
+  section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+    padding-top: 120px;
+  }
+  section#inicio {
+    justify-content: space-around;
+  }
+  figure.presentacion-img {
+    margin-bottom: 20px;
+  }
+  figure.presentacion-img img {
+    border-radius: 50%;
+    width: 400px;
+  }
+  article.presentacion {
+    width: 100%;
+    text-align: center;
+  }
+  button {
+    background-color: #af599e;
+    color: #fbfbfb;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+  }
+  .contacto {
+    background-color: rgba(175, 89, 158, 0.3);
+    color: #0f0f0f;
+    border-radius: 5%; 
+    justify-content: space-between;
+    text-align: center;
+    padding: 20px;
+    margin: 5px;
+  }
+  #iconos-contacto {
+    display: flex;
+    gap: 55px; 
+    margin-top: 30px;
+  }
+
+  /*estilos de footer*/
+  footer {
+    background-color: #af599e;
+    color: #fbfbfb;
+    height: 90px;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+  }
+  
